@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(29, 182, 182);
+}
+
+.navBar {
+    border: solid;
+}
+
+.navItem {
+    border: solid;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.optionsList {
+    background-color: rgb(20, 20, 20);
+    margin: 10px 10px;
+    border: black;
+    width: 20em;
+    height: 6em;
+    text-align: center;
+}
+
+.dropbox {
+    background-color: rgb(223, 253, 252);
+    border: solid;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+#orderButton {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(175, 99, 99);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+}
+
+h3 {
+    color: rgb(29, 182, 182);
+}
