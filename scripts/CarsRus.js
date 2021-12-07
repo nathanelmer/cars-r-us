@@ -9,8 +9,7 @@ export const CarsRus = () => {
   return `
    <h1>Cars R Us</h1>
    <div class="navBar">
-   <section class="navItem">Home</section>
-   <section class="navItem">Orders</section>
+   <section class="navItem">Welcome! Select your upgrades below!</section>
    </div>
    <article class="options">
    <section class="optionsList">

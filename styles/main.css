@@ -4,10 +4,15 @@ body {
 
 .navBar {
     border: solid;
+    display: flex;
+    justify-content: center;
+    height: 1em;
+    padding: 6px;
+    
 }
 
 .navItem {
-    border: solid;
+    
 }
 
 .options {

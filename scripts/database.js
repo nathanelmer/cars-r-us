@@ -71,7 +71,11 @@ export const getOrders = () => {
 }
 
 export const addCustomOrder = () => {
-  
+    if (database.orderBuilder.interiorId === undefined || database.orderBuilder.techId === undefined || database.orderBuilder.wheelId === undefined || database.orderBuilder.colorId === undefined){
+        window.alert("Please select something from each box")
+        return
+    }
+
     const newOrder = {...database.orderBuilder}
 
     const lastIndex = database.customOrders.length - 1
@@ -85,4 +89,6 @@ export const addCustomOrder = () => {
     database.orderBuilder = {}
 
     document.dispatchEvent(new CustomEvent("stateChanged"))
+
+    window.alert("Thank you for your order!")
 }
